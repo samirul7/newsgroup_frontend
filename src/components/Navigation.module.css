@@ -1,0 +1,41 @@
+.navigation {
+  /* background-color: #739e58; */
+  background: linear-gradient(to right bottom, #ca7474, #9e38dd);
+  font-size: 1.6rem;
+}
+
+.navigation ul {
+  display: flex;
+  margin: 0 3rem;
+  height: var(--navbar-height);
+  align-items: center;
+}
+
+.navigation li {
+  list-style: none;
+  transition: all 0.2s ease-out;
+}
+
+.navigation li a {
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+}
+.navigation li:not(:first-child) {
+  background-color: #e770d5;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+}
+
+.navigation li:not(:first-child):hover {
+  transform: translateY(-3px);
+}
+
+.navigation li:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.logo {
+  flex-grow: 1;
+}

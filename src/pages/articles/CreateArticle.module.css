@@ -1,0 +1,48 @@
+.article {
+  background: linear-gradient(to right bottom, #c285ea, #c6a5d6);
+  min-height: calc(100vh - var(--navbar-height));
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  padding: 5rem;
+  align-items: center;
+}
+
+.article h2 {
+  font-size: 4rem;
+  margin-bottom: 4rem;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.form {
+  /* background-color: aliceblue; */
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form_input {
+  /* background-color: #ecf1f1; */
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 3fr;
+  width: 100%;
+}
+
+.form_input label {
+  text-align: right;
+  margin-right: 2rem;
+  padding-bottom: 2rem;
+}
+.form_input input,
+.form_input textarea {
+  background-color: rgb(242, 240, 237);
+}
+
+.btn_container {
+  text-align: center;
+  margin: 2rem;
+  /* background-color: #c285ea; */
+}

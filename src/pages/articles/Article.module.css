@@ -1,0 +1,59 @@
+.container {
+  background: linear-gradient(to right bottom, #c690f0, #f6eff5);
+  max-width: 100vw;
+  min-height: calc(100vh - var(--navbar-height));
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 70%;
+  padding: 2rem;
+  border: 1px solid black;
+  background-color: #fff;
+  position: relative;
+  border-radius: 0.5rem;
+}
+
+.img_container {
+  width: 40rem;
+  height: 50rem;
+  float: left;
+  padding-right: 2rem;
+  position: relative;
+}
+
+.image {
+  /* height: 20rem; */
+  width: 100%;
+  height: 100%;
+}
+
+.category {
+  position: absolute;
+  top: 1rem;
+  right: 3rem;
+  background-color: rgb(189, 224, 233);
+  font-size: 1.6rem;
+  padding: 0.5rem;
+  border-radius: 3px;
+}
+.title {
+  font-size: 3.5rem;
+  font-weight: 100;
+}
+
+.description {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.btn {
+  background-color: rgb(160, 210, 216);
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  text-transform: uppercase;
+}

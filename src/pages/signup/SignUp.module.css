@@ -1,0 +1,79 @@
+.signUpContainer {
+  background: linear-gradient(to right bottom, #cf30c2, #d43e3e);
+  height: calc(100vh - 6rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signUp {
+  background-color: #e59ee8;
+  padding: 2rem;
+  border-radius: 1rem;
+  min-width: 40rem;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+  font-size: 2.6rem;
+  text-transform: uppercase;
+}
+
+.gridLayout {
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  gap: 1rem;
+  align-items: center;
+  text-align: right;
+}
+
+.gridLayout label {
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+.gridLayout input {
+  border: 1px solid rgba(0, 0, 0, 0.349);
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.gridLayout input:focus {
+  border: 1px solid #000000cb;
+}
+
+.signUp__footer {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signUpButton {
+  background: linear-gradient(to right bottom, #ca7474, #9e38dd);
+  padding: 1.5rem 3rem;
+  border-radius: 1rem;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+
+.signUpButton:hover {
+  transform: translateY(-2px);
+}
+
+.footer__text {
+  font-size: 1.5rem;
+}
+
+.btn_text {
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  background-color: inherit;
+}

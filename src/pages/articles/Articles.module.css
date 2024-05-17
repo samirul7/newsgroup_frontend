@@ -1,0 +1,28 @@
+.articles {
+  background-color: #caaee5;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  min-height: calc(100vh - var(--navbar-height));
+  padding: 1rem 4rem;
+}
+
+.message_container {
+  min-height: calc(100vh - var(--navbar-height));
+  background: linear-gradient(to right bottom, #e296de, #4c1e34);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.message_button {
+  background-color: transparent;
+  text-decoration: underline;
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+}

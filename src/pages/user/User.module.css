@@ -1,0 +1,11 @@
+.container {
+  background-color: orangered;
+  min-height: calc(100vh - 6rem);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.container > * {
+  background-color: #00ffffd0;
+}
