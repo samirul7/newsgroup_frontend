@@ -1,4 +1,5 @@
-const BASE_URL = process.env.BACKEND_URL
+// const BASE_URL = process.env.BACKEND_URL
+const BASE_URL = 'https://newsgroup-backend-4.onrender.com'
 
 export const AUTH_API_URL = `${BASE_URL}/api/auth`
 export const SIGN_UP_URL = `${BASE_URL}/api/users`
